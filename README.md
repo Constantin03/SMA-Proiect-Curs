@@ -1,3 +1,5 @@
 # SMA-Proiect-Curs
 # Aplicație pentru controlul sistemului de irigatii si al teraselor din curte
-În această aplicație se 
+În această aplicație se tratează problema automatizării sistemului de irigație a gazonului din curte și a acoperișurilor retractabile de la terasele existente. Această soluție duce la îmbunătățirea calității gazonului și a protejării teraselor, lucru pe care și-l dorește oricine care stă la curte.
+
+Pentru implementarea acestei aplicații am folosit Jade. Aplicația are în componența sa un număr de 7 agenți, aceștia având diferite responsabilități. Această soluție a fost gândită pentru o curte care are două terase și două zone cu gazon (schița curții este atașată, "schita.png"). A fost implementat un agent care să simuleze un senzor de ploaie, acesta comunică cu doi agenți care au rolul de a acționa acoperișurile celor două terase (închidere și deschidere). Pentru irigarea gazonului au fost implementate două tipuri de agenți, unul care monitorizează umiditatea gazonului și un tip de agent care acționează aspersorul din zona respectivă. Având gazon în două zone diferite, se folosesc doi agenți de monitorizare (unul în zona 1 și unul în zona 2), fiecare dintre agenții de monitorizare comunică cu un aspersor diferit.
